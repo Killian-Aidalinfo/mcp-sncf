@@ -1,6 +1,6 @@
 {
   "name": "mcp-sncf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP Server for SNCF train search and information",
   "main": "dist/index.js",
   "type": "module",
@@ -25,10 +25,6 @@
     "typescript": "^5.8.3",
     "zod": "^3.25.4"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.7.0",

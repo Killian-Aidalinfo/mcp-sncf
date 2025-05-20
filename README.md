@@ -28,7 +28,7 @@ const mcp = new MCPClient({
   servers: {
     sncf: {
       command: "npx",
-      args: ["mcp-sncf"],
+      args: ["-y", "mcp-sncf"],
       env: {
         SNCF_API_KEY: "votre-clé-api-sncf", // Remplacez par votre clé API SNCF
       },
