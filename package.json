@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "pnpm tsx index.ts",
-    "build": "tsc  && shx chmod +x dist/*.js",
+    "build": "tsc  && shx chmod +x dist/*.js"
   },
   "bin": {
     "mcp-sncf": "dist/index.js"
